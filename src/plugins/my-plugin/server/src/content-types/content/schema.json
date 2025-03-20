@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "Content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
+
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
